@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+@font-face {
+    font-family: Manrope;
+    src: url(./font/Manrope-Regular.ttf);
+}
+
+  header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  
+  nav {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  
+  }
+  
+  
+  header nav div ul {
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid gray;
+    padding: 5px 20px 5px 0;
+  }
+  
+  
+  
+  .Assistance {
+    display: flex;
+    gap: 10px;
+  
+  }
+  
+  div.contact {
+    margin: auto;
+    width: 142px;
+    line-height: 1.3;
+  }
+  
+  .num {
+    word-spacing: 3px;
+  }
+  
+  body section {
+    width: 80%;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+  }
+  
+  section .container {
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    display : flex;
+    
+    
+  }
+  
+  section .container .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  section .container .right {
+    width: 50%;
+    height: 100%;
+    background-image: url("https://i.ibb.co/8xLbMvD/Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  h1{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 60px; 
+  }
+  
+  
+  section .container .right .service {
+    position: absolute;
+    left: -20%;
+    top: 0;
+   
+  }
+  
+  section .container .right .rating {
+    position: absolute;
+    right: -20%;
+    bottom: 0px;
+  }
+  
+  section .container .content {
+    width:  80%;
+  }
+  
+  
+  button {
+    height: 70px;
+    width: 170px;
+    background-color:  #EF6530;
+    border: 0 solid;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 3s;
+    
+  }
+  
+  button:hover{
+    background-color: #5cba99;
+  }
+  
+  .icon{
+    display: flex;
+  }
+  
+  .work-time{
+    margin-left: 8px;
+  
+  }
+  
+  .image-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p{
+    color: darkgray;
+  }
